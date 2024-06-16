@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  .logo {
+    height: 49px;
+    width: 104px;
+    mix-blend-mode: normal;
+  }
+
+  
+  #nav {
+    background-color: #01458E;
+    height: fit-content;
+    width: 50%;
+    margin: auto;
+    /* Center horizontally */
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    /* Center contents horizontally */
+    align-items: center;
+    /* Center contents vertically */
+    padding: 0px;
+    /* Add some padding */
+  }
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+    /* Change the border color */
+  }

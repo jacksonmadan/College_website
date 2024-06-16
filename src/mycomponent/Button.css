@@ -1,0 +1,33 @@
+.btn-2 {
+    background: #01458E;
+    background: linear-gradient(0deg, #b2c5d9, #01458E);
+    border: none;
+    padding: 5px;
+    width: 160px;
+    
+    
+    
+
+  }
+
+  .btn-2:before {
+    height: 0%;
+    width: 2px;
+  }
+
+  .btn-2:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+      -4px -4px 6px 0 rgba(116, 125, 136, .5),
+      inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+
+  .bt0{
+    margin: 140px;
+    padding-left: 24.5em;
+    
+    font-family: "Gothic A1", sans-serif;
+  }
+  .bt0 button {
+    margin-right: 5px;  
+}

@@ -1,0 +1,85 @@
+/* App.css */
+
+/* Style for the chatbot container */
+.chatbot-container {
+    width: 350px; /* Adjust width as needed */
+    height: 500px; /* Adjust height as needed */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for chat messages */
+  .chat-message {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+  }
+  
+  /* Style for user messages */
+  .user-message {
+    background-color: #dff0d8; /* Light green */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    text-align: right;
+  }
+  
+  /* Style for input area */
+  .input-area {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ccc;
+  }
+  
+  .input-field {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .send-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for chat header */
+  .chat-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* Style for chat body */
+  .chat-body {
+    height: 400px; /* Adjust height based on the chat container height */
+    overflow-y: scroll;
+  }
+  
+  /* Style for chat footer */
+  .chat-footer {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+  }
+  

@@ -1,0 +1,69 @@
+
+.firstnav {
+  width: 100%;
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  border: 1px solid transparent;
+
+
+
+}
+.navbar {
+  padding: 0.25rem 0.5rem;
+  /* Reduce padding to shrink the navbar */
+}
+
+.navbar-brand,
+.nav-link {
+  font-size: 8.5px;
+  /* Smaller font size */
+  padding: 0.43rem 0.5rem;
+  /* Reduce padding for navbar items */
+}
+
+.form-control {
+  font-size: 0.75rem;
+  /* Smaller font size for the search input */
+  height: 1.3rem;
+  /* Reduce height of the input */
+}
+
+.btn {
+  font-size: 0.75rem;
+  /* Smaller font size for the button */
+  padding: 0.25rem 0.5rem;
+  /* Reduce padding for the button */
+  height: 1.5rem;
+  /* Reduce height of the button */
+  line-height: 1;
+  /* Adjust line height */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28 255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  /* Change link color to white */
+  font-family: Arial, sans-serif;
+  /* Change font family */
+  font-weight: bold;
+  /* Make the font bold */
+  text-transform: uppercase;
+  /* Convert text to uppercase */
+}
+
+.nav-item {
+  margin-left: 10px;
+  font-family: Arial, sans-serif;
+  /* Change font family */
+  font-weight: bold;
+  /* Make the font bold */
+  text-transform: uppercase;
+  /* Convert text to uppercase */
+}
+
